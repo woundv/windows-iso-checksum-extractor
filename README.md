@@ -12,9 +12,9 @@ pip uninstall playwright
 
 navigate to:
 
-windows: %USERPROFILE%\AppData\Local\ms-playwright
-macOS: ~/Library/Caches/ms-playwright
-linux: ~/.cache/ms-playwright
+- windows: %USERPROFILE%\AppData\Local\ms-playwright
+- macOS: ~/Library/Caches/ms-playwright
+- linux: ~/.cache/ms-playwright
 
 and delete the folder
 
