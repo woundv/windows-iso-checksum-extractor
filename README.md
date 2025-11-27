@@ -5,6 +5,8 @@ useful if you want to verify 3rd party iso checksums
 
 personally i made this because i couldnt access the official download page with my vpn on
 
+##
+
 once complete do the following:
 
 npx playwright uninstall --all
