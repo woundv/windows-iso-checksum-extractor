@@ -1,6 +1,4 @@
-import asyncio
-import json
-import sys
+import asyncio, json, sys
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError
 
 URL = "https://www.microsoft.com/en-us/software-download/windows11"
@@ -84,12 +82,13 @@ async def scrape_hashes():
             with open("hashes.json", "w", encoding="utf-8") as f:
                 json.dump(extracted_data, f, indent=4)
             await asyncio.sleep(1)
-            print("=====> table saved to hashes.json")
+            print("--- table saved to hashes.json ---")
         else:
             await asyncio.sleep(1)
-            print("[!] =====> extraction failed")
+            print("[!] --- extraction failed ---")
 
         await browser.close()
 
 if __name__ == "__main__":
+
     asyncio.run(scrape_hashes())
