@@ -10,7 +10,7 @@ personally i made this because i couldnt access the official download page with 
 once complete do the following:
 
 ```bash
-  npx playwright uninstall --all
+npx playwright uninstall --all
 ```
 ```bash
 pip uninstall playwright
