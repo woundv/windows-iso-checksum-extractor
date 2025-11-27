@@ -9,8 +9,12 @@ personally i made this because i couldnt access the official download page with 
 
 once complete do the following:
 
-npx playwright uninstall --all
+```bash
+  npx playwright uninstall --all
+```
+```bash
 pip uninstall playwright
+```
 
 navigate to:
 
